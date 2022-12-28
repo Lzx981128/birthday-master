@@ -13,6 +13,11 @@
         <li class="img-li"><img :src="imgurl.img9" alt=""></li>
         <li class="img-li"><img :src="imgurl.img10" alt=""></li>
         <li class="img-li"><img :src="imgurl.img11" alt=""></li>
+        <li class="img-li"><img :src="imgurl.img12" alt=""></li>
+        <li class="img-li"><img :src="imgurl.img13" alt=""></li>
+        <li class="img-li"><img :src="imgurl.img14" alt=""></li>
+        <li class="img-li"><img :src="imgurl.img15" alt=""></li>
+        <li class="img-li"><img :src="imgurl.img16" alt=""></li>
       </ul>
     </div>
     <div class="htmleaf-container">
@@ -48,6 +53,12 @@ import img8 from '../assets/img/8.jpg'
 import img9 from '../assets/img/9.jpg'
 import img10 from '../assets/img/10.jpg'
 import img11 from '../assets/img/11.jpg'
+import img12 from '../assets/img/12.jpg'
+import img13 from '../assets/img/13.jpg'
+import img14 from '../assets/img/14.jpg'
+import img15 from '../assets/img/15.jpg'
+import img16 from '../assets/img/16.jpg'
+
 
 export default {
   // components: {
@@ -70,7 +81,14 @@ export default {
         img8: img8,
         img9: img9,
         img10: img10,
-        img11: img11
+        img11: img11,
+        img12: img12,
+        img13: img13,
+        img14: img14,
+        img15: img15,
+        img16: img16
+       
+        
       }
     }
   },

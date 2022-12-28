@@ -6,7 +6,8 @@ import VueRouter from 'vue-router'
 import App from './App.vue'
 import routes from './router/index'
 import VueFullpage from 'vue-fullpage.js'
-
+import './assets/font/iconfont.js' //引入阿里巴巴图标库js
+import './assets/font/iconfont.css'//引入阿里巴巴图标库css
 Vue.use(VueRouter)
 Vue.use(VueFullpage)
 
