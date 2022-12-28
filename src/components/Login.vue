@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     btnclick () {
-      if (this.username === 'LZXCMY' && this.password === '0722') {
+      if (this.username === 'CMY' && this.password === '0722') {
         $('audio#cake-music')[0].play()
         let url = '/cake'
         this.$router.push({ path: url })
